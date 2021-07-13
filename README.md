@@ -31,5 +31,5 @@ docker image build . -t homework
 
 Run the following command to run the container:
 ```
-docker container run -p 3000:3000 homework
+docker container run -p 3000:3000 -it homework
 ```
